@@ -66,7 +66,7 @@ function loadSong(song) {
 	image.src = "/images/" + song.poster;
 	title.innerHTML = song.title;
 	artist.innerHTML = "Song by " + song.artist;
-	musicPlayer.play(); //Continues Playing new song
+	if (isPlaying) musicPlayer.play(); //Continues Playing new song
 }
 
 window.addEventListener("keypress", (event) => {
