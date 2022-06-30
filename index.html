@@ -15,7 +15,8 @@
                 <div id="title">
                 </div>
                 <div id="artist"></div>
-                <audio controls class="media-box">
+                <!-- Load the next song automatically once the current one ends using onended -->
+                <audio controls class="media-box" onended={nextSong()}>
                     <source type="audio/mpeg">
                 </audio>
             </div>
