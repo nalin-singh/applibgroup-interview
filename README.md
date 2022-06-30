@@ -8,6 +8,9 @@ Controls
 2. Press N to play the next song
 2. Press P to play the previous song
 
+Feature 
+- Automatically plays the next song once the current one finishes
+
 Font Library : Inter by Google Fonts
 
 Live Preview : https://interview-assessment.netlify.app
