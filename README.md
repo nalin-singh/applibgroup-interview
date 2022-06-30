@@ -10,3 +10,4 @@ Controls
 
 Font Library : Inter by Google Fonts
 
+Live Preview : https://interview-assessment.netlify.app
